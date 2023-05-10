@@ -1,0 +1,46 @@
+.schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time-select {
+  display: flex;
+  align-items: center;
+}
+
+.time-select select {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.time-select span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Additional styles for color selection, adjust as needed */
+#color {
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.date-picker-container {
+  position: absolute;
+  z-index: 999;
+}
